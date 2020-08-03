@@ -37,20 +37,20 @@ Item {
                 if (value >= (0.45 * control.maximumValue)) {
                     mainColor = "#325125"
                     lightColor = "#a5cd38"
-                    NotificationsManager.removeNotification(notificationsList, notification)
+                    /*NotificationsManager.removeNotification(notificationsList, notification)*/
                 }
                 else if (value >= (0.25 * control.maximumValue) &&
                          value < (0.45 * control.maximumValue)) {
                     mainColor = "#fad201"
                     lightColor = "#FFFFE0"
-                    NotificationsManager.removeNotification(notificationsList, notification)
+                    /*NotificationsManager.removeNotification(notificationsList, notification)*/
                 }
                 else {
                     mainColor = "#d64228"
                     lightColor = "#edb1b1"
-                    if (NotificationsManager.numberOfEntries(notificationsList, notification) === 0) {
+                    /*if (NotificationsManager.numberOfEntries(notificationsList, notification) === 0) {
                         notificationsList.append({message: notification, status: "warning"})
-                    }
+                    }*/
                 }
             }
         }

@@ -74,7 +74,7 @@ Item {
                 SmoothedAnimation {
                     target: valueSource
                     property: "tankLevel1"
-                    to: 23
+                    to: 24
                     velocity: -1
                     duration: 4000
                 }
@@ -299,7 +299,7 @@ Item {
                         SmoothedAnimation {
                             target: valueSource
                             property: "tankLevel1"
-                            to: 17
+                            to: 20
                             velocity: -1
                             duration: 90000
                             alwaysRunToEnd: true
@@ -307,7 +307,7 @@ Item {
                         SmoothedAnimation {
                             target: valueSource
                             property: "tankLevel2"
-                            to: 3.7
+                            to: 3.8
                             velocity: -1
                             duration: 90000
                             alwaysRunToEnd: true
@@ -343,7 +343,7 @@ Item {
                                 SmoothedAnimation {
                                     target: valueSource
                                     property: "appRate2"
-                                    to: 17
+                                    to: 21
                                     velocity: -1
                                     duration: 30000
                                 }
@@ -353,14 +353,14 @@ Item {
                                 SmoothedAnimation {
                                     target: valueSource
                                     property: "appRate1"
-                                    to: 26
+                                    to: 23
                                     velocity: -1
                                     duration: 30000
                                 }
                                 SmoothedAnimation {
                                     target: valueSource
                                     property: "appRate2"
-                                    to: 21
+                                    to: 23
                                     velocity: -1
                                     duration: 30000
                                 }
@@ -490,7 +490,7 @@ Item {
                 SmoothedAnimation {
                     target: valueSource
                     property: "tankLevel1"
-                    to: 13
+                    to: 17
                     velocity: -1
                     duration: 5000
                     alwaysRunToEnd: true
@@ -498,7 +498,7 @@ Item {
                 SmoothedAnimation {
                     target: valueSource
                     property: "tankLevel2"
-                    to: 2.6
+                    to: 2.8
                     velocity: -1
                     duration: 5000
                     alwaysRunToEnd: true
@@ -506,14 +506,14 @@ Item {
                 SmoothedAnimation {
                     target: valueSource
                     property: "appRate1"
-                    to: 22
+                    to: 20
                     velocity: -1
                     duration: 5000
                 }
                 SmoothedAnimation {
                     target: valueSource
                     property: "appRate2"
-                    to: 23
+                    to: 20
                     velocity: -1
                     duration: 5000
                 }
@@ -568,14 +568,14 @@ Item {
                     SmoothedAnimation {
                         target: valueSource
                         property: "rpm"
-                        to: 2.1
+                        to: 1.6
                         velocity: -1
                         duration: 2000
                     }
                     SmoothedAnimation {
                         target: valueSource
                         property: "rpm"
-                        to: 2.3
+                        to: 1.8
                         velocity: -1
                         duration: 2000
                     }
@@ -591,14 +591,14 @@ Item {
                     SmoothedAnimation {
                         target: valueSource
                         property: "rpm"
-                        to: 2.2
+                        to: 1.8
                         velocity: -1
                         duration: 20000
                     }
                     SmoothedAnimation {
                         target: valueSource
                         property: "rpm"
-                        to: 2.3
+                        to: 1.6
                         velocity: -1
                         duration: 20000
                     }
@@ -612,7 +612,7 @@ Item {
                     SmoothedAnimation {
                         target: valueSource
                         property: "rpm"
-                        to: 2.3
+                        to: 1.7
                         velocity: -1
                         duration: 15000
                     }
@@ -621,7 +621,7 @@ Item {
                 SmoothedAnimation {
                     target: valueSource
                     property: "tankLevel1"
-                    to: 5.3
+                    to: 15
                     velocity: -1
                     duration: 90000
                     alwaysRunToEnd: true
@@ -629,7 +629,7 @@ Item {
                 SmoothedAnimation {
                     target: valueSource
                     property: "tankLevel2"
-                    to: 0.5
+                    to: 2.3
                     velocity: -1
                     duration: 90000
                     alwaysRunToEnd: true
@@ -644,7 +644,7 @@ Item {
                 SmoothedAnimation {
                     target: valueSource
                     property: "appRate2"
-                    to: 20
+                    to: 25
                     velocity: -1
                     duration: 10000
                 }
@@ -660,7 +660,7 @@ Item {
                     SmoothedAnimation {
                         target: valueSource
                         property: "boomHeight"
-                        to: 25
+                        to: 24.5
                         velocity: -1
                         duration: 5000
                         alwaysRunToEnd: true
@@ -669,7 +669,7 @@ Item {
                     SmoothedAnimation {
                         target: valueSource
                         property: "boomHeight"
-                        to: 26
+                        to: 25.4
                         velocity: -1
                         duration: 25000
                         alwaysRunToEnd: true
@@ -678,7 +678,7 @@ Item {
                     SmoothedAnimation {
                         target: valueSource
                         property: "boomHeight"
-                        to: 25
+                        to: 24.5
                         velocity: -1
                         duration: 20000
                         alwaysRunToEnd: true
@@ -687,7 +687,7 @@ Item {
                     SmoothedAnimation {
                         target: valueSource
                         property: "boomHeight"
-                        to: 24
+                        to: 25.4
                         velocity: -1
                         duration: 20000
                         alwaysRunToEnd: true
@@ -696,7 +696,7 @@ Item {
                     SmoothedAnimation {
                         target: valueSource
                         property: "boomHeight"
-                        to: 26
+                        to: 24.5
                         velocity: -1
                         duration: 20000
                         alwaysRunToEnd: true
@@ -709,7 +709,7 @@ Item {
                         SmoothedAnimation {
                             target: valueSource
                             property: "appRate1"
-                            to: 20
+                            to: 22
                             velocity: -1
                             duration: 20
                         }
@@ -732,7 +732,7 @@ Item {
                         SmoothedAnimation {
                             target: valueSource
                             property: "appRate2"
-                            to: 20
+                            to: 24
                             velocity: -1
                             duration: 30000
                         }
@@ -748,7 +748,7 @@ Item {
                         SmoothedAnimation {
                             target: valueSource
                             property: "appRate2"
-                            to: 24
+                            to: 21
                             velocity: -1
                             duration: 30000
                         }

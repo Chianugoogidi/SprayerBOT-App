@@ -682,23 +682,6 @@ ApplicationWindow {
 
         onSpeedChanged: {
             speedometer.value = speed
-
-            if (speed > 0 && speed <= 3) {
-                if (NotificationsManager.numberOfEntries(notificationsList, speedometer.lowSpeedWarning) === 0) {
-                    notificationsList.append({message: speedometer.lowSpeedWarning, status: "warning"})
-                    NotificationsManager.removeNotification(notificationsList, notificationsList.allClear)
-                }
-                NotificationsManager.removeNotification(notificationsList, speedometer.highSpeedWarning)
-            } else if (speed > 6) {
-                if (NotificationsManager.numberOfEntries(notificationsList, speedometer.highSpeedWarning) === 0) {
-                    notificationsList.append({message: speedometer.highSpeedWarning, status: "warning"})
-                    NotificationsManager.removeNotification(notificationsList, notificationsList.allClear)
-                }
-                NotificationsManager.removeNotification(notificationsList, speedometer.lowSpeedWarning)
-            } else {
-                NotificationsManager.removeNotification(notificationsList, speedometer.lowSpeedWarning)
-                NotificationsManager.removeNotification(notificationsList, speedometer.highSpeedWarning)
-            }
         }
 
         onRpmChanged: {
@@ -707,23 +690,6 @@ ApplicationWindow {
 
         onBoomHeightChanged: {
             boomHeightElement.val = boomHeight
-
-            if (boomHeight > 28) {
-                if (NotificationsManager.numberOfEntries(notificationsList, boomHeightElement.highHeightWarning) === 0) {
-                    notificationsList.append({message: boomHeightElement.highHeightWarning, status: "warning"})
-                    NotificationsManager.removeNotification(notificationsList, notificationsList.allClear)
-                }
-                NotificationsManager.removeNotification(notificationsList, boomHeightElement.lowHeightWarning)
-            } else if (boomHeight < 22) {
-                if (NotificationsManager.numberOfEntries(notificationsList, boomHeightElement.lowHeightWarning) === 0) {
-                    notificationsList.append({message: boomHeightElement.lowHeightWarning, status: "warning"})
-                    NotificationsManager.removeNotification(notificationsList, notificationsList.allClear)
-                }
-                NotificationsManager.removeNotification(notificationsList, boomHeightElement.highHeightWarning)
-            } else {
-                NotificationsManager.removeNotification(notificationsList, boomHeightElement.highHeightWarning)
-                NotificationsManager.removeNotification(notificationsList, boomHeightElement.lowHeightWarning)
-            }
         }
 
         onTankLevel1Changed: {
