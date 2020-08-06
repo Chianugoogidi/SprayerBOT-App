@@ -1,0 +1,26 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/">
+<file alias="qtquickcontrols2.conf">C:/Users/user/Documents/GitHub/SprayerBOT-App/src/qtquickcontrols2.conf</file>
+<file alias="nmea_log.txt">C:/Users/user/Documents/GitHub/SprayerBOT-App/src/nmea_log.txt</file>
+<file alias="media/front.mp4">C:/Users/user/Documents/GitHub/SprayerBOT-App/src/media/front.mp4</file>
+<file alias="media/icons8-arrow-16.png">C:/Users/user/Documents/GitHub/SprayerBOT-App/src/media/icons8-arrow-16.png</file>
+<file alias="media/icons8-near-me-24.png">C:/Users/user/Documents/GitHub/SprayerBOT-App/src/media/icons8-near-me-24.png</file>
+<file alias="media/icons8-wind-64.png">C:/Users/user/Documents/GitHub/SprayerBOT-App/src/media/icons8-wind-64.png</file>
+<file alias="media/left.mp4">C:/Users/user/Documents/GitHub/SprayerBOT-App/src/media/left.mp4</file>
+<file alias="media/qt_attribution.json">C:/Users/user/Documents/GitHub/SprayerBOT-App/src/media/qt_attribution.json</file>
+<file alias="media/README.txt">C:/Users/user/Documents/GitHub/SprayerBOT-App/src/media/README.txt</file>
+<file alias="media/right.mp4">C:/Users/user/Documents/GitHub/SprayerBOT-App/src/media/right.mp4</file>
+<file alias="media/weather-few-clouds.png">C:/Users/user/Documents/GitHub/SprayerBOT-App/src/media/weather-few-clouds.png</file>
+<file alias="media/weather-fog.png">C:/Users/user/Documents/GitHub/SprayerBOT-App/src/media/weather-fog.png</file>
+<file alias="media/weather-haze.png">C:/Users/user/Documents/GitHub/SprayerBOT-App/src/media/weather-haze.png</file>
+<file alias="media/weather-icy.png">C:/Users/user/Documents/GitHub/SprayerBOT-App/src/media/weather-icy.png</file>
+<file alias="media/weather-overcast.png">C:/Users/user/Documents/GitHub/SprayerBOT-App/src/media/weather-overcast.png</file>
+<file alias="media/weather-showers.png">C:/Users/user/Documents/GitHub/SprayerBOT-App/src/media/weather-showers.png</file>
+<file alias="media/weather-sleet.png">C:/Users/user/Documents/GitHub/SprayerBOT-App/src/media/weather-sleet.png</file>
+<file alias="media/weather-snow.png">C:/Users/user/Documents/GitHub/SprayerBOT-App/src/media/weather-snow.png</file>
+<file alias="media/weather-storm.png">C:/Users/user/Documents/GitHub/SprayerBOT-App/src/media/weather-storm.png</file>
+<file alias="media/weather-sunny-very-few-clouds.png">C:/Users/user/Documents/GitHub/SprayerBOT-App/src/media/weather-sunny-very-few-clouds.png</file>
+<file alias="media/weather-sunny.png">C:/Users/user/Documents/GitHub/SprayerBOT-App/src/media/weather-sunny.png</file>
+<file alias="media/weather-thundershower.png">C:/Users/user/Documents/GitHub/SprayerBOT-App/src/media/weather-thundershower.png</file>
+</qresource>
+</RCC>
